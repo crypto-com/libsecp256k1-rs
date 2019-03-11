@@ -26,6 +26,7 @@ mod ecdsa;
 mod ecdh;
 mod error;
 mod der;
+pub mod schnorr;
 
 use hmac_drbg::HmacDRBG;
 use sha2::Sha256;
